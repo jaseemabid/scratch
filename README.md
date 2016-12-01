@@ -23,3 +23,8 @@ scratch buffer for all languages you care about.
 # Dependency Versions?
 
 Latest. Let's keep things simple.
+
+# TODO
+
+- Remove my name from everywhere. Config?
+- Scripts to bootstrap language modules
