@@ -25,6 +25,9 @@ executable scratch
                      , containers
                      , diagrams
                      , free
+                     , hlint
+                     , hoogle
                      , lens
                      , parsec
+                     , process
                      , vector
