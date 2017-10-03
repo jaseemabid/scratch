@@ -4,4 +4,5 @@
 
     $ mkvirtualenv scratch
     $ workon scratch
-    $ pip install -r requirements.txt
+    $ make deps
+    $ make test
