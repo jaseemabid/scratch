@@ -1,7 +1,8 @@
 .PHONY: deps
-deps:
-	pip install -r requirements.txt
+deps: ; pip install -r requirements.txt
 
 .PHONY: test
-test:
-	pytest
+test: ; pytest
+
+.PHONY: lint
+lint: ; flake8
