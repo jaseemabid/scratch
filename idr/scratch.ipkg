@@ -1,0 +1,7 @@
+package scratch
+
+-- scratch by Jaseem Abid
+
+opts = ""
+sourcedir = src
+modules = Scratch
