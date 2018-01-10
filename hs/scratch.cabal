@@ -30,4 +30,5 @@ executable scratch
                      , lens
                      , parsec
                      , process
+                     , protolude
                      , vector
