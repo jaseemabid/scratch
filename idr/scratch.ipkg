@@ -5,3 +5,5 @@ package scratch
 opts = ""
 sourcedir = src
 modules = Scratch
+executable = scratch
+main = Scratch
