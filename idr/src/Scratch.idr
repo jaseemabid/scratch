@@ -19,7 +19,7 @@ go (Bus _) = "Bom"
 
 total refuel : Nat -> Vehicle Petrol -> Vehicle Petrol
 refuel k (Car fuel) = Car $ k + fuel
-refuel k (Bus fuel) = Car $ k + fuel
+refuel k (Bus fuel) = Bus $ k + fuel
 refuel k Bike impossible
 
 zip : (a -> b -> c) -> Vect n a -> Vect n b -> Vect n c
