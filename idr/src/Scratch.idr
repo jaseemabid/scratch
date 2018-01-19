@@ -30,3 +30,8 @@ tryIndex : Integer -> Vect n a -> Maybe a
 tryIndex {n = n} x vect = case integerToFin x n of
     Nothing => Nothing
     Just bound => Just $ index bound vect
+
+readN : IO (Maybe Nat)
+readN = do
+    x <- getLine
+    pure $ Just (the Nat (cast x))
