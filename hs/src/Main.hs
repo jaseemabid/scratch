@@ -1,5 +1,5 @@
-{-# LANGUAGE GADTs #-}
-{-# LANGUAGE DataKinds #-}
+{-# LANGUAGE DataKinds      #-}
+{-# LANGUAGE GADTs          #-}
 {-# LANGUAGE KindSignatures #-}
 
 module Main where
@@ -24,5 +24,5 @@ go Tesla   = "Eee"
 
 refuel :: Int -> Vehicle 'Petrol -> Vehicle 'Petrol
 refuel k (Car fuel) = Car $ k + fuel
-refuel k (Bus fuel) = Car $ k + fuel
+refuel k (Bus fuel) = Bus $ k + fuel
 refuel _ Tesla      = Tesla
